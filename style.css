@@ -26,6 +26,7 @@
 .select-box-wrap{
     width: 23%;
     position: relative;
+    margin-left: 20px;
 }
 .select-box{
     display: flex;
@@ -158,7 +159,7 @@
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 50%;
-    margin-left: 20px;
+    margin: 0 20px;
   }
   
   #customers td, #customers th {
@@ -181,9 +182,15 @@
     .select-box-wrap{
         width: 28%;
     }
+    #customers {
+        width: 28%;
+    }
 }
 @media only screen and (max-width:1200px){
     .select-box-wrap{
+        width: 30%;
+    }
+    #customers {
         width: 30%;
     }
 }
@@ -191,9 +198,15 @@
     .select-box-wrap{
         width: 35%;
     }
+    #customers {
+        width: 35%;
+    }
 }
 @media only screen and (max-width:900px){
     .select-box-wrap{
+        width: 40%;
+    }
+    #customers {
         width: 40%;
     }
 }
@@ -201,14 +214,23 @@
     .select-box-wrap{
         width: 50%;
     }
+    #customers {
+        width: 50%;
+    }
 }
 @media only screen and (max-width:700px){
     .select-box-wrap{
         width: 75%;
     }
+    #customers {
+        width: 75%;
+    }
 }
 @media only screen and (max-width:500px){
     .select-box-wrap{
+        width: 90%;
+    }
+    #customers {
         width: 90%;
     }
 }
